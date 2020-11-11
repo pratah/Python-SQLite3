@@ -39,4 +39,14 @@ c.execute(""" CREATE TABLE customers (
 * Text
 * Blob
 
+---
+
+## Commiting changes 
+`conn.commit()`
+
+---
+
+## Closing the connection
+`conn.close()`
+
 
