@@ -71,4 +71,16 @@ customers = [
 c.executemany("INSERT INTO customers VALUES (?,?,?)", customers)
 ```
 
+---
+
+## Querying
+```python
+c.execute("SELECT * FROM customers")
+
+print(c.fetchall())
+```
+
+---
+
+
 
