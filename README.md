@@ -50,3 +50,11 @@ c.execute(""" CREATE TABLE customers (
 `conn.close()`
 
 
+---
+
+## Inserting one record at a time
+```python
+c.execute("INSERT INTO customers VALUES ('John', 'Doe', 'john@email.com')")
+```
+
+
