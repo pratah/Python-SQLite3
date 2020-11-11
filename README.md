@@ -27,7 +27,6 @@ c.execute(""" CREATE TABLE customers (
 		email text
 	)""")
 ```
-<br><br>
 :warning: Be sure to use multi-line docstrings `(""" This is a multi-line docstring """)`
 ---
 
