@@ -82,5 +82,19 @@ print(c.fetchall())
 
 ---
 
+## Looping through a query
+```pyhon
+c.execute("SELECT * FROM customers")
+
+items = c.fetchall()
+
+for item in items:
+	print(item)
+```
+
+---
+
+
+
 
 
