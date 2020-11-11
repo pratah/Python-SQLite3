@@ -83,7 +83,7 @@ print(c.fetchall())
 ---
 
 ## Looping through a query
-```pyhon
+```python
 c.execute("SELECT * FROM customers")
 
 items = c.fetchall()
