@@ -62,11 +62,11 @@ c.execute("INSERT INTO customers VALUES ('John', 'Doe', 'john@email.com')")
 ## Inserting multiple rows
 ```python
 customers = [
-				('Jason', 'Bourne', 'jason@email.com'), 
-				('James', 'Bond', 'james@email'), 
-				('Red', 'Sparrow', 'red@email'), 
-				('Nathan', 'Muir', 'nathan@email.com')
-			]
+	('Jason', 'Bourne', 'jason@email.com'), 
+	('James', 'Bond', 'james@email'), 
+	('Red', 'Sparrow', 'red@email'), 
+	('Nathan', 'Muir', 'nathan@email.com')
+]
 
 c.executemany("INSERT INTO customers VALUES (?,?,?)", customers)
 ```
