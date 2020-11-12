@@ -107,5 +107,27 @@ for item in items:
 
 ---
 
+## Where Clause
+```python
+c.execute("SELECT * FROM customers WHERE last_name = 'Bond'")
+
+items = c.fetchall()
+
+for item in items:
+	print(item)
+
+# Using the like operator
+c.execute("SELECT * FROM customers WHERE last_name like 'B%' ")
+
+new_query = c.fetchall()
+
+for i in new_query:
+	print(i)
+```
+
+---
+
+
+
 
 
