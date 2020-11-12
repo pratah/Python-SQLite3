@@ -103,6 +103,7 @@ items = c.fetchall()
 for item in items:
 	print(item)
 ```
+:warning: In order to show the Unique ID for each record make sure you include `rowid` in the select statement
 
 ---
 
