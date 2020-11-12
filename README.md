@@ -4,9 +4,9 @@
 
 ## Establishing a connection in memory
 ```python
-conn = sqlite3.connect(':memory:')` <br><br>
-:warning: Changes made to the databse will not be saved
+conn = sqlite3.connect(':memory:')
 ```
+:warning: Changes made to the databse will not be saved
 
 ---
 
@@ -20,7 +20,7 @@ conn = sqlite3.connect('customer.db')
 
 ## Creating a cursor to perform SQL commands
 ```python
-c = conn.cursor()`
+c = conn.cursor()
 ```
 
 ---
