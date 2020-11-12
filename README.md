@@ -34,7 +34,7 @@ c.execute(""" CREATE TABLE customers (
 	)""")
 ```
 
-:warning: Be sure to use multi-line docstrings when inserting multiple records `(""" This is a multi-line docstring """)`
+:warning: Be sure to use multi-line docstrings when inserting multiple records `("""  """)`
 
 ---
 
