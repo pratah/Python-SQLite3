@@ -152,6 +152,33 @@ conn.commit()
 c.execute("DELETE FROM customers WHERE rowid = 5 ")
 ```
 
+## ORDER BY
+```python
+c.execute("SELECT rowid, * FROM customers ORDER BY rowid DESC")
+```
+
+---
+
+
+## AND | OR
+```python
+# Query using AND
+c.execute("SELECT rowid, * FROM customers WHERE email LIKE '%@email' AND first_name LIKE 'Ja%' ")
+
+items = c.fetchall()
+
+for item in items:
+	print(item)
+
+# Query using OR
+c.execute("SELECT rowid, * FROM customers WHERE email LIKE '%@email' OR first_name LIKE 'Ja%' ")
+
+query = c.fetchall()
+
+for i in query:
+	print(i)
+``
+
 
 
 
