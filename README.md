@@ -177,7 +177,7 @@ query = c.fetchall()
 
 for i in query:
 	print(i)
-``
+```
 
 
 
