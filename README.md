@@ -127,6 +127,24 @@ for i in new_query:
 
 ---
 
+## Updating records
+```python
+# Updating Records
+c.execute(""" UPDATE customers SET first_name = "Andy"
+			WHERE last_name = "Doe"
+		""")
+
+
+# Commiting changes made
+conn.commit()
+```
+
+---
+
+## Deleting records
+```python
+c.execute("DELETE FROM customers WHERE rowid = 5 ")
+```
 
 
 

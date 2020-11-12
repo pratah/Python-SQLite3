@@ -23,7 +23,7 @@ items = c.fetchall()
 for item in items:
 	print(item)
 
-print("*******************************************************")
+print("********************************************************************************************************************")
 
 
 c.execute("SELECT * FROM customers WHERE last_name like 'B%' ")
