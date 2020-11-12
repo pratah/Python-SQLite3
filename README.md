@@ -94,7 +94,17 @@ for item in items:
 
 ---
 
+## Primary Key ID
+```python
+c.execute("SELECT rowid, * FROM customers")
 
+items = c.fetchall()
+
+for item in items:
+	print(item)
+```
+
+---
 
 
 
