@@ -16,7 +16,7 @@ c = conn.cursor()
 
 
 # Query using AND OR
-c.execute("SELECT rowid, * FROM customers WHERE email LIKE '%@email' AND first_name LIKE 'Ja%' ")
+c.execute("SELECT rowid, * FROM customers LIMIT 2 ")
 
 items = c.fetchall()
 

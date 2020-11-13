@@ -187,7 +187,7 @@ for i in query:
 
 ## Limiting results
 ```python
-
+c.execute("SELECT rowid, * FROM customers LIMIT 2 ")
 ```
 
 
