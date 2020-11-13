@@ -48,12 +48,16 @@ c.execute(""" CREATE TABLE customers (
 ---
 
 ## Commiting changes 
-`conn.commit()`
+```python
+conn.commit()
+```
 
 ---
 
 ## Closing the connection
-`conn.close()`
+```python
+conn.close()
+```
 
 
 ---
