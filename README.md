@@ -190,5 +190,16 @@ for i in query:
 c.execute("SELECT rowid, * FROM customers LIMIT 2 ")
 ```
 
+---
+
+## Drop table
+```python
+# Drop table
+c.execute("DROP TABLE customers")
+
+# Commiting changes made
+conn.commit()
+```
+:warning: This action is definitive, all records will be deleted from the database
 
 
